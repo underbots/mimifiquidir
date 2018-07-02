@@ -1,2 +1,2 @@
 
-TOKEN = "***REMOVED***"
+TOKEN = ""
