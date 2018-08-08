@@ -10,15 +10,15 @@ def mimi(ms, indx=0):
     """ str -> str"""
     # caracteres especiales
     # que -> qui (la u no te la puede transformar )
+    # gue -> gui (análogo al caso anterior)
     # c[aou] -> qui
-    # g[aeou] -> gui
+    # g[aou] -> gui
     # estos casos han sido generados con un for de antemano
 
-    esp = [["que", "qui"], ['ca', 'qui'], ['co', 'qui'],
-           ['cu', 'qui'], ['ga', 'gui'], ['ge', 'gui'], ['go', 'gui'],
-           ['gu', 'gui'], ['QUE', 'QUI'], ['CA', 'QUI'], ['CO', 'QUI'],
-           ['CU', 'QUI'], ['GA', 'GUI'], ['GE', 'GUI'], ['GO', 'GUI'],
-           ['GU', 'GUI']]
+    esp = [['que', 'qui'], ['ca', 'qui'], ['co', 'qui'], ['cu', 'qui'],
+           ['gue', 'gui'], ['ga', 'gui'], ['go', 'gui'], ['gu', 'gui'],
+           ['QUE', 'QUI'], ['CA', 'QUI'], ['CO', 'QUI'], ['CU', 'QUI'],
+           ['GUE', 'GUI'], ['GA', 'GUI'], ['GO', 'GUI'], ['GU', 'GUI']]
     i = 0
 
     while i < len(esp):
